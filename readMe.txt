@@ -1,4 +1,4 @@
-inception.026-1.07.hdf5¡ª¡ª ÎÒµÄÄ£ĞÍ
-processor.py ¡ª¡ªÊ¹ÊäÈëÍ¼Æ¬Í³Ò»´óĞ¡µÄ´úÂëÎÄ¼ş
-vis_simple.py ¡ª¡ª¿ÉÊÓ»¯´úÂë£¨Ö±½Óµã»÷ÔËĞĞ¼´¿É£©
-v_ApplyLipstick_g01_c01-0105.jpg¡ª¡ªÊ¾ÀıÍ¼Æ¬
+resnet50_weights_tf_dim_ordering_tf_kernels.h5 ---ä¸ºresnet50å·ç§¯ç½‘ç»œ(éœ€è¦å…ˆè§£å‹)
+processor.py ---ä½¿è¾“å…¥å›¾ç‰‡ç»Ÿä¸€å¤§å°çš„ä»£ç æ–‡ä»¶
+vis_simple.py ---å¯è§†åŒ–ä»£ç ï¼ˆç›´æ¥ç‚¹å‡»è¿è¡Œå³å¯ï¼‰
+breast_img2.pngâ€”â€”ç¤ºä¾‹å›¾ç‰‡
