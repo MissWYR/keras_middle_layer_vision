@@ -6,6 +6,7 @@ from processor import process_image
 from keras.models import load_model
 from keras import backend as K
 import matplotlib.pyplot as plt
+from matplotlib.pyplot import cm
 import cv2
 
 def main():
@@ -24,9 +25,12 @@ def main():
 # 设置可视化的层
     layer_1 = K.function([model.layers[0].input], [model.layers[1].output])
     f1 = layer_1([image_arr])[0]
+    id=1
     for _ in range(32):
+        id+=1
         show_img = f1[:, :, :, _]
         show_img.shape = [149, 149]
+        plt.imsave('middle_layer_vision/middle_layer_%id.png'%id,show_img,cmap=cm.gray)
         plt.subplot(4, 8, _ + 1)
         plt.subplot(4, 8, _ + 1)
         plt.imshow(show_img, cmap='gray')
